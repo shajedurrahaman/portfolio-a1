@@ -214,4 +214,83 @@
 /* inspiration section */
 .inspiration {
   text-align: center;
+  margin: 0 140px;
+}
+
+.inspiration h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.inspiration p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  margin: 0 140px 30px;
+}
+
+.inspiration iframe {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  background-color: 1px Inside rgba(13, 19, 33, 0.2);
+  padding: 32px;
+  width: 750px;
+  height: 400px;
+}
+
+/* current page */
+.current-section {
+  margin: 0 140px;
+}
+.current-header {
+  text-align: center;
+}
+
+.current-header h3 {
+  color: rgb(13, 19, 33);
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.current-header p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+}
+
+.box-container {
+  display: flex;
+  gap: 100px;
+  margin-top: 80px;
+}
+
+.html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 24px;
+}
+
+.css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 24px;
+}
+
+.js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 24px;
+}
+
+.html > p > a {
+  color: rgb(13, 19, 33);
+  font-weight: 700;
+}
+.css > p > a {
+  color: rgb(13, 19, 33);
+  font-weight: 700;
+}
+.js > p > a {
+  color: rgb(13, 19, 33);
+  font-weight: 700;
 }
