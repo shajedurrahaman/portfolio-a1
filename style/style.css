@@ -348,8 +348,6 @@
   margin: 0 140px;
   background-image: url(/assets/handshake.jpg);
   border-radius: 16px;
-  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
-    url(Email);
   height: 320px;
   background-size: cover;
 }
