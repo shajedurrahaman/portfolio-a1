@@ -346,7 +346,7 @@
 /* support section */
 .support-section {
   margin: 0 140px;
-  background-image: url(/assets/handshake.jpg);
+  background-image: url(../assets/handshake.jpg);
   border-radius: 16px;
   height: 320px;
   background-size: cover;
