@@ -74,6 +74,7 @@
   font-weight: 600;
   padding: 20px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 /* why web development */
@@ -392,3 +393,28 @@
   color: rgb(13, 19, 33);
   font-weight: 600;
 }
+
+/* footer */
+.footer {
+  margin: 80px 140px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer h3 {
+  color: rgb(13, 19, 33);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#facebook {
+  font-size: 36px;
+}
+#github {
+  font-size: 36px;
+}
+#linkedin {
+  font-size: 36px;
+}
+

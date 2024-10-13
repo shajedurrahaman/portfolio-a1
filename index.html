@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shajedur.R</title>
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
   <body>
     <header>
@@ -24,7 +25,7 @@
             solutions for emerging tech. Crafts advanced code for tomorrow's
             technology.
           </p>
-          <button>Contact With Me</button>
+          <button onclick="document.getElementById('footer').scrollIntoView({behavior: 'smooth'});">Contact With Me</button>
         </div>
       </div>
     </header>
@@ -195,10 +196,16 @@
         </div>
        </section>
     </main>
-    <footer>
-      <div>
+    <footer id="footer">
+      <div class="footer">
         <h3>An Open Commitment by Shajedur Rahaman</h3>
-        <a href=""></a>
+        <div>
+          <a href="https://www.facebook.com/SajedurRahaman725/" target="_blank">
+            <i id="facebook" class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://github.com/shajedurrahaman" target="_blank"><i id="github" class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/sajedur-rahaman/" target="_blank"><i id="linkedin" class="fa-brands fa-linkedin"></i></a>
+        </div>
       </div>
     </footer>
   </body>
